@@ -4,7 +4,7 @@ import '../styles/app.css'
 function Header(){
     return(
         <nav className = 'header'> 
-            <a href = '/' className = "name"> Ahmed Alamin </a>
+            <a className = "name"> Ahmed Alamin </a>
                 <ul> 
                     <li> 
                         <a href = '/Home' className = "links"> Home </a> 
