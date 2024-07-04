@@ -6,7 +6,7 @@ function AboutMe(){
     return (
         <div class = 'aboutMe'> 
             <div> 
-                <p> Welcome to my website! This is Ahmed speaking. I am a... </p> 
+                <p> Welcome to my website! This is me speaking. I am a... </p> 
                 <ul>
                     <li> 
                         Year: Rising Sophmore
@@ -21,7 +21,7 @@ function AboutMe(){
                         Interested In: Full-stack applications, artificial intelligence, cybersecurity. 
                     </li>
                     <li> 
-                        From: Ethnically from Sudan, born in Philadelphia, Pennsylvania!
+                        From: Ethnically from Sudan, born right outside Philadelphia, Pennsylvania!
                     </li>
                 </ul>
                 <p> Feel free to contact me through the link in the header! Check out the rest of my page for my experience, projects, and resume! </p>
