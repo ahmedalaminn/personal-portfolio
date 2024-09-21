@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/app.css';
+import resume from '../assets/Ahmed_Alamin_Resume.pdf'; 
 
 function Header({scrollToRef, home, aboutMe, portfolio, contact}){
 
@@ -17,7 +18,7 @@ function Header({scrollToRef, home, aboutMe, portfolio, contact}){
                         <a href = '#portfolio' onClick = {() => scrollToRef(portfolio)} className = "links"> Portfolio </a>
                     </li>
                     <li>
-                        <a href = '/Ahmed Alamin Resume.pdf' target = "_blank" rel = "noopener norefferer" className = "links"> Resume </a>
+                        <a href = {resume} target = "_blank" rel = "noopener noreferer" className = "links"> Resume </a>
                     </li>
                     <li>
                         <a href = '#contact' onClick = {() => scrollToRef(contact)} className = "links"> Contact </a>
