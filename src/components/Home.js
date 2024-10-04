@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/app.css'
+import '../app.css'
 import linkedinLogo from '../assets/linkedin-logo.png'
 import githubLogo from '../assets/github-logo.png'
 

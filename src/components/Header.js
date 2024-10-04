@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/app.css';
+import '../app.css';
 import resume from '../assets/Ahmed_Alamin_Resume.pdf'; 
 
 function Header({scrollToRef, home, aboutMe, portfolio, contact}){
