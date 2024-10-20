@@ -6,25 +6,24 @@ function AboutMe(){
     return (
         <div class = 'aboutMe'> 
             <div> 
-                <p> Welcome to my website! This is me speaking. I am a... </p> 
+                <p> Here are some details about me: </p> 
                 <ul>
                     <li> 
-                        Year: Rising Sophmore
+                        Year: Sophomore
                     </li>
                     <li> 
-                        Studying: Bachelors of Engineering in Computer Engineering
+                        Pursuing: Bachelors of Science in Computer Science
                     </li>
                     <li> 
-                        At: Villanova University
+                        At: Georgia Institute of Technology
                     </li>
                     <li> 
-                        Interested In: Full-stack applications, artificial intelligence, cybersecurity. 
+                        Interested In: Full-stack applications and machine learning.
                     </li>
                     <li> 
-                        From: Ethnically from Sudan, born right outside Philadelphia, Pennsylvania!
+                        From: Ethnically from Sudan, born right outside Philadelphia, PA.
                     </li>
                 </ul>
-                <p> Feel free to contact me through the link in the header! Check out the rest of my page for my experience, projects, and resume! </p>
             </div>
             <img className = 'picture' src = {aboutMePic} alt = 'aboutMePic'/> 
         </div>
